@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto | Astro Café</title>
+    <link
+      rel="shortcut icon"
+      href="../assets/logo-astro-cafe.png"
+      type="image/png"
+    />
+    <link rel="stylesheet" href="../styles/styles.css" />
+  </head>
+  <body>
+    <header>
+      <p>Astro Café</p>
+      <a href="../index.html">
+        <img
+          src="../assets/logo-astro-cafe.png"
+          alt="Logo de Astro Café"
+          class="logo"
+        />
+      </a>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="./menu.html">Menú</a></li>
+          <li><a href="./tu-experiencia.html">Tu Experiencia</a></li>
+          <li><a href="./ubicacion.html">Ubicación</a></li>
+          <li><a href="./contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="presentacion">
+        <h1>Contacto</h1>
+        <p>
+          ¿Querés reservar una experiencia en pareja o grupo, o tenés alguna
+          consulta? Escribinos y te respondemos a la brevedad.
+        </p>
+        <figure>
+          <img
+            src="../assets/astro-cafe.png"
+            alt="Salón de Astro Café con mesas de madera, dos cafés con arte latte de luna y personas leyendo"
+          />
+          <figcaption>Te esperamos en nuestro salón.</figcaption>
+        </figure>
+      </section>
+
+      <section id="formulario">
+        <h2>Escribinos</h2>
+        <form>
+          <p>
+            <label for="nombre">Nombre completo</label><br />
+            <input type="text" id="nombre" name="nombre" required />
+          </p>
+
+          <p>
+            <label for="email">Email</label><br />
+            <input type="email" id="email" name="email" required />
+          </p>
+
+          <p>
+            <label for="telefono">Teléfono</label><br />
+            <input type="tel" id="telefono" name="telefono" />
+          </p>
+
+          <p>
+            <label for="mensaje">Mensaje</label><br />
+            <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+          </p>
+
+          <button type="submit">Enviar mensaje</button>
+        </form>
+      </section>
+
+      <section id="datos-contacto">
+        <h2>Dónde encontrarnos</h2>
+        <address>
+          <ul>
+            <li>Dirección: Independencia 355, Córdoba Capital, Argentina.</li>
+            <li>Teléfono: <a href="tel:+543515550123">(0351) 555-0123</a></li>
+            <li>
+              Email:
+              <a href="mailto:hola@astrocafe.com.ar">hola@astrocafe.com.ar</a>
+            </li>
+          </ul>
+        </address>
+        <article>
+          <h3>Reservas para grupos</h3>
+          <p>
+            Para experiencias en pareja o grupales con lectura de cartas,
+            reservá con al menos 48 horas de anticipación a través del
+            formulario o de nuestras redes.
+          </p>
+        </article>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; 2026 - Todos los derechos reservados.</p>
+      <ul>
+        <li>
+          <a href="https://www.instagram.com/" target="_blank">
+            <img
+              src="../assets/Instagram_Glyph_Gradient.png"
+              alt="Logo Instagram"
+              class="rrss"
+            />
+          </a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/" target="_blank">
+            <img
+              src="../assets/Facebook_Logo_Primary.png"
+              alt="Logo Facebook"
+              class="rrss"
+            />
+          </a>
+        </li>
+        <li>
+          <a href="https://www.tiktok.com/" target="_blank">
+            <img
+              src="../assets/TikTok_Icon_Black_Square.png"
+              alt="Logo Tiktok"
+              class="rrss"
+            />
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>

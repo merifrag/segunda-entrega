@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* ========== PALETA ==========
+Fondo principal:  #1F2633  (azul noche)
+Fondo secundario: #273759  (índigo)
+Fondo claro:      #ECE5DB  (lino)
+Títulos/acento:   #C9A55C  (dorado)
+Texto principal: #ECE5DB  (lino)
+Texto secundario:  #D5B58F  (arena)
+*/
+
+/* ========== VARIABLES ========== */
+:root {
+  --headings: #c9a55c;
+  --text: #ece5db;
+  --text-sec: #d5b58f;
+  --bg-ppal: #1f2633;
+  --bg-sec: #273759;
+  --bg-claro: #ece5db;
+
+  /* --- Fuentes --- */
+  --fuente-titulos: "Cinzel", serif;
+  --fuente-texto: "Montserrat", sans-serif;
+}
+
+/* ========== GENERAL ========== */
+body {
+  background-color: var(--bg-ppal);
+  font-family: var(--fuente-texto);
+  color: var(--text);
+}
+
+/* ========== TIPOGRAFÍA ========== */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--fuente-titulos);
+  color: var(--headings);
+  font-weight: 800;
+}
+
+h1 {
+  font-size: 2.4rem;
+}
+
+h2,
+h3 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-weight: 400;
+}
+
+/* ========== IMAGENES ========== */
+img {
+  height: 50vh;
+  width: auto;
+}
+.rrss {
+  height: 5vh;
+  width: auto;
+}
+.logo {
+  height: 15vh;
+  width: auto;
+}
+
+/* ========== NAVEGACION ========== */
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: var(--headings);
+}
+
+/* ========== FOOTER ========== */
+.footer {
+  font-size: 0.85rem;
+  background-color: var(--bg-sec);
+}
